@@ -1,1 +1,25 @@
+PERFECT SQUARE NO.
 
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main() {
+    int t;
+    cin>>t;
+    while(t--){
+        long long int n;
+        cin>>n;
+        long long int count=sqrt(n);
+        if(count*count==n)
+        cout<<count-1<<endl;
+        else
+        cout<<count<<endl;
+    }
+	return 0;
+}
+    -------------------------------------------------------------
+    
+    Output:    
+1
+8
+2
